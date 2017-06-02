@@ -22,3 +22,5 @@
                 (vector (append mod (list to)))))))))
     (when input-method
       (activate-input-method current))))
+
+(provide 'reverse-input-method)
